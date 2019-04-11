@@ -10,7 +10,7 @@ function obterUsuario(callback){
             id: 1,
             nome: 'Paulo',
             dataNascimento: new Date(),
-        }
+        })
 
     },1000)
 }
@@ -20,7 +20,7 @@ fuction obterTelefone(idUsuario, callback){
         return callback(null, {
             telefone:'61555555',
             ddd: '61'
-        }
+        })
     },2000)
 }
 
@@ -29,7 +29,7 @@ function obterEndereco(idUsuario, callback){
         return callback(null, {
             rua:'quadra dev',
             numero: '61'
-        }
+        })
     },2000)
 }
 
